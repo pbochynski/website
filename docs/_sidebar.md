@@ -2,3 +2,5 @@
 * [Overview](/kyma/README.md)
 * [BTP Manager](/btp-manager/README.md)
 * [Keda](/keda-manager/user/README.md)
+  * [Configuration](/keda-manager/user/01-20-configuration.md) 
+  * [Footprint](/keda-manager/user/04-10-footprint.md)

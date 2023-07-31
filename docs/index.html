@@ -37,7 +37,7 @@
               let alias=vm.config.alias[`/${path[1]}/(.*)`]
               if (alias) {
                 let url = alias.replaceAll('$1','')
-                html=html.replaceAll(`<img src="/${path[1]}/`,`<img src="${url}`);
+                html=html.replaceAll(`<img src="${vm.config.nameLink}${path[1]}/`,`<img src="${url}`);
               }
             }
             return html;

@@ -32,7 +32,6 @@
         function noAliasesForImages(hook, vm) {
           hook.afterEach(function (html) {
             let path = vm.route.path.split('/')
-            console.log(vm)
             if (path.length>1 && path[1]) {
               let alias=vm.config.alias[`/${path[1]}/(.*)`]
               if (alias) {
